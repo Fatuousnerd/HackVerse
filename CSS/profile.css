@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #93deff;
+}
+.details{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+.details img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: .5px solid #93deff;
+    margin-bottom: 20px;
+}
+.btns button{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background: transparent;
+    border: 2px solid #93deff;
+    border-radius: 10px;
+    color: #93deff;
+}
+.info{
+    display: flex;
+}
+.info div{
+    margin-right: 20px;
+}
+.posts{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    border-top: 1px solid #ffe;
+}
+.posts button{
+    border: none;
+    border-top: 1px solid #93deff;
+    outline: none;
+}

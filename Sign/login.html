@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HackVerse Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    
+    .logo {
+      margin-bottom: 20px;
+    }
+    
+    .logo img {
+      width: 150px;
+    }
+    
+    .form-container {
+      background-color: #fff;
+      border: 1px solid #dbdbdb;
+      border-radius: 3px;
+      padding: 20px;
+      width: 300px;
+      max-width: 90%;
+    }
+    
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .form-container input[type="text"],
+    .form-container input[type="password"] {
+      width: 95%;
+      padding: 10px;
+      border: 1px solid #dbdbdb;
+      margin-bottom: 10px;
+      border-radius: 3px;
+    }
+    
+    .form-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: #3897f0;
+      color: #fff;
+      font-weight: bold;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+    .form-container p {
+      text-align: center;
+      margin-top: 10px;
+    }
+    
+    .form-container p a {
+      color: #3897f0;
+      text-decoration: none;
+    }
+    small{
+      display: block;
+      text-align: center;
+      margin-top: 2px;
+      margin-bottom: 10px;
+      font-size: 15px;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="../Images/Logos/wallpaper15.jpg" alt="Logo">
+    </div>
+    <div class="form-container">
+      <h2>Login  to Hackverse</h2>
+      <form action="login.php" method="post">
+        <input id="username" type="text" name="username" placeholder="Username"><small id="ss"></small>
+        <input id="password" type="password" name="password" placeholder="Password"><small id="ps"></small>
+        <button id="submitt" type="submit">Log In</button>
+      </form>
+      <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+</div>
+
+<script src="../scripts/logval.js"></script>
+
+</body>
+</html>
